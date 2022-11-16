@@ -4,7 +4,38 @@
   color: white;
 }
 
+body {
+  background-image: url(./assets/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: -230px 0px;
+
+  min-height: 100vh;
+
+  padding: 50px;
+
+}
+
 /* ======== header =========*/
+
+header {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.title-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 20px;
+
+  background-color: #2A2634;
+  border-radius: 0px 0px 10px 10px;
+  width: 500px;
+  height: 200px;
+}
 
 header img {
   width: 150px;
@@ -17,24 +48,28 @@ header img {
 
 /* ======== main =========*/
 
-body {
-  background-image: url(./assets/bg.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-
-  min-height: 100vh;
-
-  padding: 50px;
-}
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
 
 section {
 
   background-image: linear-gradient(90deg, #d60b0b 0%, #fc6b0b 50.52%, #f5df1a 100%);
   padding-top: 4px;
+  border-radius: 10px;
+  max-width: 580px;
 
 }
 
 div.card {
   background-color: #2A2634;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  max-width: 580px;
+}
+
+div.footer {
+  margin-bottom: 300px;
 }
